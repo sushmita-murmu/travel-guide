@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+<div class="container">
+    <div class="alert alert-primary" role="alert">
+        <h4 class="alert-heading display-4">Welcome</h4>
+        <p><em><strong>WanderLust Travel Guide.</strong></em></p>
+
+        <hr>
+        <p><em><strong>Here Wanderlust Brings you amazing travelling Guide for unexplored locations in Jharkhand India.</strong></em></p>
+      </div>
+
+ 
+    
+    <div class="jumbotron p-8 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h3 class="display-4 font-italic">About Wanderlust..</h3>
+          <p class="lead my-3">
+             A page where you can find all information regarding falls and dams near ranchi district of Jharkhand.
+          </p> 
+        </div>
+      </div>
+
+</div>
+
+<div class="container my-4">
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">About Jharkhand </h2>
+            <p class="lead">Jharkhand is a state in eastern India,its capital is Ranchi. It's known for its waterfalls,surrounded by hills and greeneries.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="{{ url_for('static', filename='images/depositphotos_278724234-stock-illustration-flat-vector-logo-design-mountains.jpg')}}" class="bd-placeholder-img" width="400" height="250">
+        </div>
+    </div>
+
+
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. </h2>
+        <p class="lead">In our page almost unexplored waterfalls of Jharkhand near Ranchi is mentioned whoever loves to travel
+            and to have long drive and adventurous trip or want to explore.Waterfalls are hotspotGift of nature mesmerizing,eye 
+            gazing sceneries with beautiful Sunset view.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img src="{{ url_for('static', filename='images/Patratu.jpg')}}" class="bd-placeholder-img" width="400" height="250">
+    </div>
+</div>
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. </h2>
+        <p class="lead">From this web page,tourist who are fond of waterfall,greenary,mountain,so from this you can get 
+            new ideas and can plan your next trip or location to visit,travel destination or just a short day escape.</p>
+    </div>
+    <div class="col-md-5">
+        <img src="{{ url_for('static', filename='images/hirni.jpg')}}" class="bd-placeholder-img" width="400" height="250">
+    </div>
+</div>
+
+</div>
+
+{% endblock %}
