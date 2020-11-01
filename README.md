@@ -3,6 +3,7 @@
 
 About this project:
 This is a project created for SetupEnzyme problem statement evaluation, as an individual assignment. My goal is to design a simple application which can provide amazing travelling guide for travellers in location Jharkhand implementing models as:
+* test.py is python file to run the application.
 * Home write/home in browser link to go to home page
 * About wanderlust
 * Gallary
